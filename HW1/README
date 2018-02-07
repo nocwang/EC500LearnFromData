@@ -1,0 +1,22 @@
+Matlab Exercise 1
+
+Problem 1.1 Gaussian Discriminant Analysis:
+In this problem we consider using various Gaussian Discriminant Analysis classifiers.
+
+Problem 1.2 Naive Bayes Text Document Classifiers: In this problem we classify text documents using
+Naive Bayes. We use the classic 20 newsgroup dataset. Here, each document is labeled as one of 20 different
+classes and is provided in data 20news.zip. This directory contains the following files:
+1. vocabulary.txt: a list of all the words that can possibly appear in the documents. The line number
+of a word is its ID (Word ID).
+2. newsgrouplabels.txt: the names of the 20 classes. The line number of a class (label) is its ID.
+3. train.data and test.data: the words in each of the documents. Each line of each file is of the
+form: “Document ID, Word ID, Word count”. Word count is the number of times word Word ID
+appears in document Document ID.
+4. train.label and test.label: the labels of the training and testing documents.
+5. stoplist.txt: a list of so-called “stop words” such as “the”, “is”, “on”, etc. This will be used only
+in part (f).
+
+Problem 1.3 Nearest Neighbor Classifier: In this problem we will apply a k- Nearest Neighbor classi-
+fier based on the Euclidean distance to two datasets. First, we consider a simulated data set provided in
+data knnSimulation.mat. The rows of variable Xtrain are data points and each data point has 2 feature
+attributes.
