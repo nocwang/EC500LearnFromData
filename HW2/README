@@ -1,0 +1,15 @@
+Problem 2.1 San Francisco Crime Prediction: (∼1–2hrs run time)
+In this problem we will work with a recent real-world dataset that can be downloaded from the following
+website: https://www.kaggle.com/c/sf-crime. This dataset is hosted by Kaggle as part of a competi-
+tion for the machine learning community to use for fun and practice. The competition started at 8:51 pm on
+Tuesday 2 June 2015 UTC and ends at 11:59 pm, Monday 6 June 2016 UTC (370 total days). The dataset
+contains information about various incidents ranging from January 2003 to March 2015 derived from the
+San Francisco Police Department Crime Incident Reporting system. The raw data has been pre-processed
+into two MATLAB .mat files: data SFcrime train.mat and data SFcrime test.mat. Each incident
+contains the following attributes:
+
+Problem 2.2 SVM Classifier for Text Documents: (∼1–2hrs run time)
+In this problem we will use SVMs to classify documents in the 20 Newsgroup dataset which we have en-
+countered before in Matlab Exercise 1.2. The dataset provided in data 20news.zip contains the following
+files
+
