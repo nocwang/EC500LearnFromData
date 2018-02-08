@@ -1,0 +1,20 @@
+Problem 3.1 Exploring Boston Housing Data with Regression Trees: In this problem, we explore es-
+timating housing values in Boston based on a set of 13 features. The following 13 features are used to
+estimate the output, MEDV (median value of of owner-occupied homes in $1000’s): CRIM, ZN, INDUS,
+CHAS, NOX, RM, AGE, DIS, RAD, TAX, PTRATIO, B, LSTAT. Details about these features can be found
+at this website: https://archive.ics.uci.edu/ml/datasets/Housing
+
+Problem 3.2 Ordinary Least Squares (OLS) versus Robust Linear Regression:
+
+Problem 3.3 Overfitting and Ridge Regression: For this problem use the data provided in quad data.mat.
+Training data corresponds to xtrain and ytrain. Testing data corresponds to xtest and ytest.
+
+Problem 3.4 Lasso vs Ridge: In this problem, we explore the trade-offs between l 1 -regularization (lasso)
+and l 2 -regularization (ridge) in a multi-dimensional prostate cancer dataset prostateStnd.mat. In this
+dataset, 8 features: lcavol - log(cancer volume), lweight - log(prostate weight), age, lbph - log(benign pro-
+static hyperplasia amount), svi (seminal vesicle invasion), lcp - log(capsular penetration), gleason (Gleason
+score), and pgg45 (percentage Gleason scores 4 or 5) are used to estimate lpsa (log (prostate specific anti-
+gen)). In the same fashion as the last problem, training and test data are provided: (Xtrain, ytrain),
+(Xtest, ytest). The first 8 features correspond to the first 8 entries of names. The last and ninth entry
+of names is the output in (ytest, ytrain).
+
