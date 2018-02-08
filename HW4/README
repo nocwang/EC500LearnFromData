@@ -1,0 +1,16 @@
+Problem 4.1 k-means vs. Spectral Clustering
+In this problem we will use a circle-shaped dataset and a spiral-shaped dataset. Figure 1 shows examples
+for circle and spiral shaped datasets with 2 clusters. These synthetic examples can be generated using the
+provided functions sample circle.m and sample spiral.m.
+
+Problem 4.2 Spectral Clustering on Airbnb data
+In this problem we will use a newly released real-world dataset obtained from
+http://insideairbnb.com/get-the-data.html
+It consists of n = 2558 houses listed on the Airbnb website in the Boston area in Oct. 2015. We have
+pre-processed the data into a MATLAB file “BostonListing.mat”. For each listing, we will keep its
+latitude, longitude, and neighborhood. The “neighborhood” attribute indicates the region of each house
+listing such as “allston”, “brighton”, etc. We will use latitude and longitude as a 2-D feature vector for each
+listing and treat neighborhood as the ground-truth cluster label. Our goal is to cluster the listings into clus-
+ters that can reflect the neighborhood structure based on latitude and longitude. Figure 2 is a visualization
+of this dataset on Google Map.
+
