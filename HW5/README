@@ -1,0 +1,6 @@
+Problem 5.1 Kernel Principal Component Analysis (KPCA): In this problem, we will attempt to “un-
+roll” a 3-dimensional helix and swiss roll dataset using kernel PCA. Ideally, the helix unravels to become
+a circle, and the swiss roll a flat surface. We have provided the helix and swiss roll datasets in helix.mat
+and swiss.mat, respectively. The 3d points in these datasets, variable X, are generated from an underlying
+function, f (t). For the purposes of visualizing the lower-dimensional “un-rolling”, we have provided the
+underlying variable t, corresponding to each point.
